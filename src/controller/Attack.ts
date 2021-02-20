@@ -22,3 +22,18 @@ export const createAttackLog = async (
     response.status(400).send({ error: e });
   }
 };
+
+export const getLog = async ({ params }: Request, response: Response) => {
+  const attackRepository = getCustomRepository(AttackRepository);
+
+  try {
+    const log = await attackRepository.findByIdAndMarket(
+      parseInt(params.playerId, 10),
+      params.market
+    );
+
+    response.status(200).json(log);
+  } catch (e) {
+    response.status(400).send({ error: e });
+  }
+};
