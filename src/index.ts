@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 createConnection()
   .then(() => {
     app.use("/attack", attackRouter);
+    app.get("/", (request, response) => response.json("Hello world!"));
     app.listen(port, () =>
       console.log(`[server]: Server is running on port ${port}.`)
     );
