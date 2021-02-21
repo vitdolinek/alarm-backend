@@ -5,6 +5,9 @@ export class Attack {
   @PrimaryGeneratedColumn("uuid")
   id: string;
 
+  @Column({ type: "int" })
+  movementId: number;
+
   @Column({ type: "varchar" })
   market: string;
 
