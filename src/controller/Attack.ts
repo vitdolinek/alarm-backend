@@ -15,6 +15,7 @@ export const createAttackLog = async (
       market: body.market,
       playerId: body.playerId,
       movementId: body.movementId,
+      timezone: body.timezone,
       time: body.time,
     });
 

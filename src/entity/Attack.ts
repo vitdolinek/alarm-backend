@@ -20,6 +20,6 @@ export class Attack {
   @Column({ type: "varchar" })
   city: string;
 
-  @Column({ type: "varchar" })
-  time: string;
+  @Column({ type: "timestamp" })
+  time: number;
 }
