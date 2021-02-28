@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "grepolis-alarm",
+  "private_key_id": "9c77c3c986db4876ff5579d0f846829331102d26",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChN1goGV8PKfET\nsF58f2dh9p/esaZrq85afXbyOaT867m98Sklv/5mNs7ecIhZzP/1K+85IsGs8eeQ\n+VZ5ZUyGGOMv5j1WmcNPqe525cRmYVTtNU0ghiyxVXGBehuvO1gWkRwQ5L+6TvdU\n+s+qT0Fb67Yvm9hUKBHKqfW/nFGo3TiDgoHSsa50PSKjMA8uzlnxoeMEOGNZAl1g\nf644oG5UF21DNZZlogKMKtYvz9c22F9vXSq5v7mMQHzsb5Ka5CgjrWFHZsvJ/oyh\n9Y982a0wnOZ83w0cUsIima5K+VYkeRIoB7/qlri04SLgHOgxX7LafMKzkNKJUuVD\nl3yQVO5zAgMBAAECggEAROOV35ir1pp5Ag1Q6sk0P5e3y9zEvOiu5lsLi0kXl94Q\nwjn9d7yZdEsCTenvUdQ4IadS82rHMOQzq+7nxTsEnp6e4fZ0Cn/tBisak6LuMENy\nG2S13uqGyYY12Pp5PwFQTGBYil19EhsxNBZyy5dPWfyYnrJtF9UBeUT0FpsxB8NG\nSo4DMZidsPOpOnfc38LkiWe7S43PwX+JeYRv/XUI2yMhDzspVm9lo1JnWY8c39Uq\nyt8qvkJlwGT21+rYeigfuyq90J5q2bIoF4aelcSqvhReH4MSIgMAtaSju15nKdrD\nKRzUBUt3xAGF0vTHZrlD6fe9ZytE7MgkR7iIqp0EZQKBgQDV+eRpmAJ3uOyPL1mo\nrTzrWYcsAwYoh5sjqYWK5yEiemUQO2R6IWbbtETPsel8TDfNlh8EkGBaXT9ZBaoF\nSmruj5fxsMu+Zrx2iV08Y739nBwhXTlzaRO9/B9C2Ahgx/Twr1Lzv+bx4bCep2qs\na4IrWwQ6qBfuVr0Giwc4vgyiHQKBgQDA4NUwAUc7geh+vKcDTXpf7JBSUZ3ZNmmy\nzRPECeNRiOVpZBaGYP4G9Mjx7be2Ocu79ULxUzdJZs5bj1P4olx1PwcnE1VNxP0Z\nI3P7ZF3snD18z9A4hZtGDcZlGtOAAafuz6LpQz2RdAU89uxJhFfKHkTf502BaSUr\nelXSC93tzwKBgEjNXzO2LpDBcGs/Nwg2+RUyPtVwqfW8PcKiePdLsHBkqGIfcw5C\nsxZpfUgVRlWuMQZX33HUFZRpSZZmYPSv3zYP0SjAeHHtzo2eKwTTAt947/FCILvt\nsnPfhltd2WvkXKhPXq/kSRVfLpKsb5T+dyl9LDEw5AOJq4LAZtKdhvrZAoGAZjoD\n5AiZZ3nH7vwwDLkQxiyMpYSqg8iqJuE4u6t99uX2qXAp3BkmKiutIUScHRHu4HTy\ngRNY9yds8ew6Vko/dMjuEpDVon1oo909iJ0+hrycfj1qn7p4fJ2qbEXWmT7HcfRM\n5RMFW8VBTXmV7LUfDnoSiRV/57oBwFR7jfNKMdMCgYAj3Jdx7wcjVw43gGOLTvTU\nmwWir/44dNfBSI1HQs20tniSyoqAsHVoy0jz7ukG0nc6jjyB2vxmdien/odY5ZtQ\nLSzhqHEXJ621uT2jVT44Qtde+g7BYn6J2wzlaRDTgNRFIRMfZZq8hNGnmTYh8wgg\nfJAqrZqlHUko6944ksCMyQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5h0nt@grepolis-alarm.iam.gserviceaccount.com",
+  "client_id": "109075533891119025608",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5h0nt%40grepolis-alarm.iam.gserviceaccount.com"
+}

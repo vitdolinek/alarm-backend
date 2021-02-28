@@ -1,18 +1,26 @@
-import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm";
+import { ConnectedAccount } from "./ConnectedAccount";
 
 @Entity()
 export class User {
+  @PrimaryGeneratedColumn("uuid")
+  id: string;
 
-    @PrimaryGeneratedColumn()
-    id: number;
+  @Column({ type: "varchar" })
+  email: string;
 
-    @Column()
-    firstName: string;
+  @Column({ type: "varchar" })
+  password: string;
 
-    @Column()
-    lastName: string;
+  @Column({ type: "varchar", nullable: true })
+  token: string;
 
-    @Column()
-    age: number;
+  @Column({ type: "varchar" })
+  code: string;
 
+  @OneToMany(
+    () => ConnectedAccount,
+    (connectedAccount) => connectedAccount.user
+  )
+  connectedAccounts: Array<ConnectedAccount>;
 }
